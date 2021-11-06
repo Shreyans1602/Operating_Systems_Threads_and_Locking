@@ -3,7 +3,7 @@
 # Parallel Programming
 In this exercise, you will explore parallel programming with threads and locks using a hash table. You should do this homework on a real computer (not xv6, not qemu) that has multiple processors/cores (verify by running ‘cat /proc/cpuinfo’).
 
-Copy the code tl.c from the repository to your directory and compile it.
+Copy the code tl_before_modification.c from the repository to your directory and compile it.
 
     {yourpc:~} gcc -g -O2 tl.c -pthread
     {yourpc:~} ./a.out 2
